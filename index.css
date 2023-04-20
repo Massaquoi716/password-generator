@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #01161e;
+    padding: 10%;
+    
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+span {
+    color: #4ADF86;
+
+}
+
+p {
+    color: #D5D4D8;
+    font-size: 20px;
+}
+
+button {
+    background: #10B981;
+    padding: 9px 17px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0;
+    color: white;
+
+}
+
+hr {
+    border: 1px solid #2F3E53;
+}
+
+#wrap {
+    display: flex;
+}
+
+#firstPass, #secondPass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #273549;
+    border-radius: 6px;
+    height: 39px;
+    width: 211px;
+    margin-top: 15px;
+
+    color: #4ADF86;
+    
+     
+    
+
+}
+
+
+#firstPass {
+    margin-right: 10px;
+   
+}
+
