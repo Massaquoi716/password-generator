@@ -19,7 +19,7 @@ function passwordGen() {
        
        password1.textContent += characters[ranDom1]
        
-        password2.textContent += characters[ranDom1]
+        password2.textContent += characters[counter()]
         
        
         
@@ -29,7 +29,7 @@ function passwordGen() {
 
 function counter() {
       ranDom1 = Math.floor(Math.random() * characters.length)
-      return 
+      return ranDom1
 }
 
 
